@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_brown_texture"
+    tools:context=".PersonalHomepage"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_weight=".6"
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="BEHADD"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_height="0dp"
+        android:layout_weight="3.9"
+        android:id="@+id/etSecret"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="#861818"
+        android:layout_width="match_parent"
+        android:text="Copyright @Behadd"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+</LinearLayout>

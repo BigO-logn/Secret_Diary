@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623665628872",
+    "firebase_url": "https://logindiary-50a33.firebaseio.com",
+    "project_id": "logindiary-50a33",
+    "storage_bucket": "logindiary-50a33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623665628872:android:5b30373592aefa24",
+        "android_client_info": {
+          "package_name": "com.example.tejas.logindiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623665628872-lj1udko5pkrmpilr6ab0o46g67l1macr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU-fT3Bkby27kgovVQlLYrU6TLQVtJa0g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
